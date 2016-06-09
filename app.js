@@ -5,7 +5,7 @@ var mongoStore = require('connect-mongo')(express)
 var port = process.env.PORT || 3000
 var app = express()
 var fs = require('fs')
-var dbUrl = 'mongodb://localhost/imooc'
+var dbUrl = 'mongodb://localhost/movie'
 
 mongoose.connect(dbUrl)
 
